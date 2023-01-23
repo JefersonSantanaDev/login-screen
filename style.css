@@ -1,0 +1,219 @@
+:root {
+  --color-bg-dark: #091215;
+  --color-bg-ligth: #0a171c;
+  --color-primary: #00e2dc;
+  --color-primary-dark: #13bab6;
+  --color-text: #8299a3;
+  --color-input: #1a292d;
+  --color-white: #fff;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-text);
+}
+
+input,
+button {
+  border: none;
+  font: inherit;
+  outline: none;
+}
+
+input::placeholder {
+  font: inherit;
+}
+
+html {
+  font-size: 60%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.6rem;
+  color: var(--color-text);
+  height: 100vh;
+  background-color: var(--color-bg-dark);
+}
+
+.container {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 2rem;
+}
+
+.form-wrapper {
+  position: relative;
+  background-color: var(--color-bg-ligth);
+  border-radius: 0.5rem;
+  width: 100%;
+  max-width: 42rem;
+  padding: 0.2rem;
+  overflow: hidden;
+}
+
+.form {
+  background-color: var(--color-bg-ligth);
+  position: relative;
+  padding: 5rem 3rem;
+  width: 100%;
+  height: 100%;
+}
+
+.form-wrapper::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, var(--color-primary));
+  top: -50%;
+  left: -50%;
+  transform-origin: bottom right;
+  animation: animateRotate 5s linear infinite;
+}
+
+@keyframes animateRotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.form-title {
+  font-size: 2.4rem;
+  color: var(--color-white);
+  margin-bottom: 2rem;
+}
+
+.form-links {
+  display: grid;
+  row-gap: 1rem;
+}
+
+.form-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 1rem;
+  border: 1px solid var(--color-input);
+  border-radius: 0.5rem;
+  color: var(--color-white);
+  padding: 2rem;
+  transition: 0.4s;
+}
+
+.form-link i {
+  font-size: 3rem;
+}
+
+.form-link:hover {
+  background-color: var(--color-white);
+  color: var(--color-bg-dark);
+}
+
+.form-separator {
+  position: relative;
+  margin: 4rem 0;
+  width: 100%;
+  height: 0.1rem;
+  background-color: var(--color-input);
+}
+
+.form-separator::before {
+  position: absolute;
+  content: "Ou";
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0 4rem;
+  background-color: var(--color-bg-ligth);
+}
+
+.field-label {
+  display: block;
+  color: var(--color-white);
+  margin-bottom: 1rem;
+}
+
+.field-wrapper {
+  display: flex;
+  align-items: center;
+  padding: 1.5rem;
+  background-color: var(--color-input);
+  margin-bottom: 2rem;
+  border-radius: 0.5rem;
+}
+
+.field-input {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  color: var(--color-white);
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.field-input::placeholder {
+  color: var(--color-text);
+}
+
+.field-icon {
+  font-size: 2rem;
+  color: var(--color-white);
+}
+
+.password-icon {
+  color: var(--color-text);
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.password-icon:hover {
+  color: var(--color-primary);
+}
+
+.form-footer {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 2rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-btn {
+  background-color: var(--color-primary);
+  border-radius: 0.5rem;
+  padding: 1.4rem 5rem;
+  color: var(--color-bg-dark);
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.form-btn:hover {
+  background-color: var(--color-primary-dark);
+}
+
+.form-recover {
+  font-size: 1.4rem;
+  transition: 0.4s;
+}
+
+.form-recover:hover {
+  color: var(--color-primary);
+}
+
+.form-dev {
+  color: var(--color-white);
+  position: absolute;
+  top: 2rem;
+}

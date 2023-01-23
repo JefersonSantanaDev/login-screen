@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+
+    <!--Text Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--BoxIcons-->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+    <!--Link CSS-->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-wrapper">
+        <form class="form">
+          <h1 class="form-title">Login</h1>
+          <div class="form-links">
+            <a href="#" class="form-link"> <i class="bx bxl-google"></i> Entrar com Google </a>
+            <a href="#" class="form-link"> <i class="bx bxl-github"></i> Entrar com GitHub </a>
+          </div>
+          <div class="form-separator"></div>
+          <div class="form-inputs">
+            <div class="field">
+              <label class="field-label">E-mail</label>
+              <div class="field-wrapper">
+                <span class="field-icon"> <i class="bx bx-envelope"></i> </span>
+                <input type="text" class="field-input" placeholder="email@email.com" required />
+              </div>
+            </div>
+            <div class="field">
+              <label class="field-label">Senha</label>
+              <div class="field-wrapper">
+                <span class="field-icon"><i class="bx bx-lock"></i> </span>
+                <input
+                  type="password"
+                  id="field-password"
+                  class="field-input"
+                  placeholder="Digite sua senha aqui"
+                  required
+                />
+                <span class="field-icon"><i class="bx bx-hide password-icon"></i></span>
+              </div>
+            </div>
+          </div>
+          <div class="form-footer">
+            <a href="#" class="form-recover">Esqueceu a senha?</a>
+            <button type="submit" class="form-btn">Login</button>
+          </div>
+          <div class="form-dev"><h6>Desenvolvido por Jeferson Santana</h6></div>
+        </form>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
