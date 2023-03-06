@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <img alt="Screen Login" src="https://uploaddeimagens.com.br/images/004/378/939/full/Captura_de_Tela_%2886%29.png?1678126278" width="100%">
+  <img alt="Screen Login" src="https://uploaddeimagens.com.br/images/004/378/939/full/Captura_de_Tela_%2886%29.png?1678126278">
 </p>
 
 ## 🚀 Tecnologias
@@ -26,7 +26,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O Habits é um app para ajudar a rastrear os hábitos.
 
-- [Visite o projeto online](https://jefersonsantanadev.github.io/login-screen/)" width="100%">
+- [Visite o projeto online](https://jefersonsantanadev.github.io/login-screen/)" "width="100%">
 </p>
 
 ---
