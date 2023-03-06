@@ -29,5 +29,5 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ---
 
-Feito por Jeferson Santana
+Feito por Jeferson Santana⚡
 
