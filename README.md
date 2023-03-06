@@ -26,7 +26,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O Habits é um app para ajudar a rastrear os hábitos.
 
-- [Visite o projeto online](https://jefersonsantanadev.github.io/login-screen/)" "width="100%">
+- [Visite o projeto online](https://jefersonsantanadev.github.io/login-screen/)">
 </p>
 
 ---
