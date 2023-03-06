@@ -12,8 +12,7 @@
 </p>
 
 <p align="center">
-  <img alt="Screen Login" src="<p align="center">
-  <img alt="projeto Habits" src=".github/preview.jpg" width="100%">
+  <img alt="Screen Login" src="https://uploaddeimagens.com.br/images/004/378/939/full/Captura_de_Tela_%2886%29.png?1678126278" width="100%">
 </p>
 
 ## 🚀 Tecnologias
