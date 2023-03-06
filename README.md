@@ -24,7 +24,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-- [Visite o projeto online](https://jefersonsantanadev.github.io/login-screen/)"
+- [Visite o projeto online](https://jefersonsantanadev.github.io/login-screen/)
 </p>
 
 ---
